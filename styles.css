@@ -1,0 +1,280 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: ;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.images-selection-list {
+  flex-wrap: wrap;
+}
+.images-selection {
+  margin-bottom: 20px;
+}
+img {
+  display: block;
+  margin-right: 30px;
+}
+.employee-img {
+  margin-bottom: 30px;
+}
+.header .container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 46px;
+}
+.nav-item,
+.contact-top {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.lorem-ipsum:not(:last-child) {
+  margin-right: 30px;
+}
+.lorem-description:not(:last-child) {
+  margin-right: 30px;
+}
+.teltop {
+  margin-left: 50px;
+}
+.mailtop {
+  margin-left: 371px;
+}
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* === HEADER === */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --main-background: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background: var(--main-background);
+}
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav:hover,
+:focus {
+  color: var(--main-color);
+}
+/* === END HEADER ===*/
+
+/* === COMPONENTS ===*/
+.choice-btn:not(:last-child) {
+  margin-right: 8px;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+.button:hover,
+:focus {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+.order-service-button {
+  font-weight: 900;
+  font-size: 16;
+  line-height: 1.875;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  margin-bottom: 200px;
+}
+.order-service-button:hover,
+:focus {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+.solutions,
+.footer {
+  background: #2f303a;
+}
+.our-team {
+  background: #f5f4fa;
+}
+.header {
+  background: #ffffff;
+}
+
+.web-logo {
+  color: var(--main-color);
+}
+.studio-logo {
+  color: #000000;
+}
+.studio-logo-bottom {
+  color: #ffffff;
+}
+/* === END COMPONENTS ===*/
+
+/* === BODY ===*/
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 452px;
+  margin-right: 452px;
+  padding-bottom: 30px;
+  margin-top: 200px;
+  width: 696px;
+}
+.sub-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+.picture-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+.picture-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+.employee-description {
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.picture-description {
+  line-height: 1.875;
+  color: #757575;
+  margin-bottom: 50px;
+}
+.lorem-ipsum {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.276;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.lorem-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* === END BODY === */
+
+/* === FOOTER === */
+.contact-top .contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.logo-bottom {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7142;
+}
+.contact:hover,
+:focus {
+  color: var(--main-color);
+}
+.contact-list .contact-address {
+  color: #ffffff;
+}
+.contact-address,
+.tel,
+.logo {
+  text-decoration: none;
+}
+/* === END FOOTER ===*/
